@@ -1,0 +1,102 @@
+
+*{
+	margin:0;
+	padding: 0; 
+	font-family: font-family: 'Open Sans', sans-serif;
+}
+body{
+	background:#eeeeee;
+}
+.tm-container{
+	max-width: 1200px;  
+	margin:0 auto;
+	
+}
+.tm-header{
+	background:#f25c5a;
+}
+.tm-header:: after{
+	content: " ";
+	clear: both;
+	display: both;
+	visibility: none;
+}
+.tm-logo{
+	float: left;
+}
+.tm-nav{
+	float: right;
+}
+.tm-nav ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #303030;
+	line-height: 60px;
+}
+.tm-nav ul li{
+	display: inline-block;
+}
+
+.tm-nav ul {
+	margin-bottom: 0px;
+}
+
+
+.tm-nav ul li a:hover{
+	color: blue;
+}
+.tm-nav ul li a:active{
+	color: black;
+}
+.tm-nav ul li a:visited{
+	color: red;
+}
+/* second part*/
+p{
+	margin-bottom: 20px;
+}
+h1,h2{
+	margin-bottom: 10px;
+}
+ul,ol{
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.tm-content{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width: 70%;
+	float: left;
+}
+.tm-article{
+	background:#fff;
+	padding: 30px;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+.round-corner{
+	border-radius: 40px;
+}
+
+.tm-footer{
+	background: #fff;
+	text-align: center;
+	padding: 20px;
+	clear: both;
+}
+.tm-sidebar{
+	max-width: 25%;
+	float: right;
+	width: 35%;
+	padding: 20px;
+	margin-top: 360px;
+	margin-bottom: 50px;
+
+}
+.tm-sidebar div{
+	background: #fff;
+	padding: 30px;
+	height: 550px;
+}

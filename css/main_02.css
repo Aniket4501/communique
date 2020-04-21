@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+font-family: 'Dancing Script', cursive;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Pacifico', cursive;
+font-family: 'Special Elite', cursive;
+}
+body{
+	background-image: url('../images/abstract-architecture-background-brick-194096.jpg');
+}
+.tm-container{
+	
+	max-width: 1400px;
+	width: 100%;
+}
+
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+.tm-nav ul li  {
+	display: inline-block;
+	
+	
+	padding: 2px 5px;
+	margin:1px 5px;
+}
+.tm-nav ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: black;
+	border-radius: 10px;
+	color: #fff;
+	line-height: 40px;
+	margin: 1px 10px 1px 15px;
+}
+.tm-nav{
+	text-align: center;
+	padding: 10px 20px;
+	font-size: 20px;
+	
+}
+
+.tm-nav ul li a::hover{
+	color:yellow;
+}
+.tm-nav ul li a:active{
+	color:white;
+}
+.tm-nav ul li a:visited{
+	color: white;
+}
+.tm-nav ul li  h1{
+	margin-right: 130px;
+	font-size: 60px;
+	color: #fff64f;
+}
+
+.hobbies{
+	margin: 30px 500px 30px 40px;
+	padding: 20px 30px 20px 30px;
+}
+.Skills{
+	margin: 50px 500px 30px 40px;
+	padding: 20px 30px 20px 30px;
+
+}
+.tm-skills ul h1{
+	font-size: 35px;
+	margin: 10px 80px 5px 50px;
+	padding: 10px 30px 5px 0px;
+	color: red;
+}
+.tm-skills ul li{
+	font-size: 26px;
+	margin: 10px 80px 5px 50px;
+	padding: 1px 30px 5px 10px;
+	color: white;
+}
+
+
+*footer*/
+.tm-footer{
+	background:black;
+	padding: 10px 40px;
+	text-align: center;
+	margin:200px 3px 2px 300px;
+	border-radius: 10px;
+	clear: both;
+}
+.tm-footer ul li{
+	display: inline-block;
+	max-height: 20px;
+}
+
+.tm-footer ul li{
+	color:#65c274 ;
+	font-size: 15px;
+	padding: 10px 20px 5px 30px;
+}

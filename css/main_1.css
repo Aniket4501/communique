@@ -1,0 +1,20 @@
+h1{
+	text-align: center;
+	background-color: #585d87;
+	margin-bottom: 20px;
+	padding: 15px;
+	color: #0f4d20;
+}
+*{
+	margin: 0;
+	padding: 0;
+	background:#e697a1;
+}
+input{
+	text-align: center;
+	margin: 10px;
+	margin-left: 100px;
+	padding: 10px;
+	background-color: #fff;
+
+}

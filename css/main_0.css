@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Dancing Script', cursive;
+font-family: 'Source Code Pro', monospace;
+}
+body{
+background-color: #077678;
+color: #fff;
+}
+.img div img{
+	border-radius:50%;
+}
+.img div {
+	margin-top: 200px;
+	margin-left: 50px;
+}
+.img{
+	max-width: 35%;
+	float: left;
+}
+.img div h1{
+	margin: 20px 20px 20px 130px;
+}
+/*NAV*/
+.tm-container{
+	
+	max-width: 1300px;
+}
+
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+.tm-nav ul li  {
+	display: inline-block;
+	
+	
+	padding: 2px 5px;
+	margin:1px 5px;
+}
+.tm-nav ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color:black;
+	border-radius: 10px;
+	color: #fff;
+	line-height: 40px;
+	margin: 1px 10px 1px 15px;
+}
+.tm-nav{
+	text-align: center;
+	padding: 10px 20px;
+	font-size: 20px;
+	position: fixed;
+	
+}
+
+.tm-nav ul li a::hover{
+	color:yellow;
+}
+.tm-nav ul li a:active{
+	color:white;
+}
+.tm-nav ul li a:visited{
+	color: white;
+}
+.tm-nav ul li  h1{
+	margin-right: 130px;
+	font-size: 60px;
+	color: #fff64f;
+}
+
+
+.tm-sidebar{
+	max-width: 55%;
+	float: right;
+	margin-right: 100px;
+}
+.tm-sidebar div{
+	background: #8880c4 url('../images/brick-brickwall-brickwork-cement-276514.jpg') ;
+	border-top-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+	margin-top: 200px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+	padding: 30px 200px 100px 200px;
+}
+.tm-sidebar h1{
+	font-size: 55px;
+	margin:10px 0px;
+	padding: 20px 3px 1px 3px; 
+}
+.tm-sidebar p{
+	font-size: 20px;
+	padding: 2px 3px 4px 5px;
+}/*footer*/
+.tm-footer{
+	background:#fcffcf;
+	padding: 10px 40px;
+	text-align: center;
+	margin:200px 3px 2px 3px;
+	border-radius: 10px;
+	clear: both;
+}
+.tm-footer ul li{
+	display: inline-block;
+	max-height: 20px;
+}
+
+.tm-footer ul li{
+	color:black ;
+	font-size: 15px;
+}

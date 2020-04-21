@@ -1,0 +1,118 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Dancing Script', cursive;
+}
+body{
+	background:#5e5e00 url('../images/abstract-ancient-antique-art-235985.jpg');
+}
+
+.tm-container{
+	
+	max-width: 1300px;
+	margin-left: 50px;
+	margin-top: 0 ;
+}
+
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+.tm-nav ul li  {
+	display: inline-block;
+	
+	
+	padding: 2px 5px;
+	margin:1px 5px;
+}
+.tm-nav ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: black;
+	border-radius: 10px;
+	color: #fff;
+	line-height: 40px;
+	margin: 1px 10px 1px 15px;
+}
+.tm-nav{
+	text-align: center;
+	padding: 10px 20px;
+	font-size: 25px;
+	
+}
+
+.tm-nav ul li a::hover{
+	color:yellow;
+	font-size:
+}
+.tm-nav ul li a:active{
+	color:white;
+}
+.tm-nav ul li a:visited{
+	color: white;
+}
+.tm-nav ul li  h1{
+	margin-right: 130px;
+	font-size: 75px;
+	color: #fff64f;
+}
+.tm-insti{
+	
+}
+.insti div{
+	margin: 100px 30px 30px 10px;
+	text-align: center;
+}
+.tm-insti ul li a{
+	padding: 0px 20px 10px 0px;
+	text-decoration: none;
+	border-radius: 10px;
+	color:#750006;
+	margin: 0px 10px 1px 1px;
+	font-size: 25px;
+}
+.tm-insti ul li a:hover{
+ 	color: yellow;
+ 	font-size: 27px;
+}
+.tm-insti ul li a:active{
+	color:#e8002e;
+}
+.tm-insti ul li a:visited{
+	linear-gradient :(to right,#db042f,#fff,#db042f,#fff);
+}
+
+.tm-insti ul li h2{
+	margin: 10px 20px 10px 0px;
+	font-size: 40px;
+	color: #fa2340;
+}
+
+.tm-insti ul li p{
+	font-size: 30px;
+}
+
+
+
+
+
+/*footer*/
+.tm-footer{
+	background:#fcffcf;
+	padding: 10px 40px;
+	text-align: center;
+	margin:200px 3px 2px 3px;
+	border-radius: 10px;
+	clear: both;
+}
+.tm-footer ul li{
+	display: inline-block;
+	max-height: 20px;
+}
+
+.tm-footer ul li{
+	color:black ;
+	font-size: 15px;
+}
